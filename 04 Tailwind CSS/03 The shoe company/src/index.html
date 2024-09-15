@@ -1,0 +1,72 @@
+<!-- https://www.figma.com/design/KRagV1oBRnzQAOIOwalUgz/The-Shoe-Company?node-id=301-2&node-type=frame&t=prb9m7b3yHueAXo2-0 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Company</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white">
+    <header class="flex items-center justify-between px-6 md:px-12 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
+        <a href="#">
+            <img src="./images/logo.png" alt="logo" class="w-24 md:w-32">
+            <p class="text-xs -mt-6 md:text-sm md:-mt-8">The Shoe Company</p>
+        </a>
+        <nav class="hidden md:block space-x-6 lg:text-2xl">
+            <a class="font-bold" href="#hero">Home</a>
+            <a class="font-bold" href="#how-it-works">How it works?</a>
+            <a class="font-bold" href="#about">About</a>
+            <a class="font-bold" href="#testimonials">Testimonials</a>
+            <a class="font-bold" href="#contact">Contact Us</a>
+        </nav>
+        <button class="text-4xl md:hidden">☰</button>
+    </header>
+
+    <section id="hero"
+        class="bg-[url(./images/hero-background-image.png)] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 px-6 md:px-12 max-w-[1440px] mx-auto">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between mx-auto max-w-6xl">
+            <h1 class="text-4xl leading-[48px] md:text-6xl font-bold md:leading-[72px]">THE <br> SHOE <br> COMPANY</h1>
+            <div>
+                <img src="./images/hero-image.png" alt="white shoe image" class="max-w-xl w-full">
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section-container pt-12">
+        <h2 class="text-center text-3xl font-bold max-w-md mx-auto">Have they finally made the perfect workout shoe?</h2>
+        <div class="max-w-xl mx-auto mt-28 relative">
+            <img class="max-w-xl w-full" src="./images/how-it-works-image.png" alt="">
+
+            <div class="max-w-xs absolute -top-16 -translate-x-full">
+                <h3 class="text-2xl font-bold">THE HEEL</h3>
+                <p class="text-lg ">The heel is well-built, has appropriate elevation and is not too rigid.</p>
+                <img class="ml-auto" src="./images/arrow-1 1.png" alt="">
+            </div>
+
+            <div class="max-w-xs absolute -bottom-0 translate-x-full right-[500px] flex flex-row-reverse">
+                <img class="ml-auto" src="./images/arrow-3 1.png" alt="">
+                <div class="mt-12">
+                    <h3 class="text-2xl font-bold">TRACTION</h3>
+                <p class="text-lg ">The shoe has good traction and doesn't slip easily.</p>
+                </div>
+            </div>
+
+            <div class="max-w-xs absolute -top-10 -right-6 flex flex-row-reverse">
+                <div class="">
+                    <h3 class="text-2xl font-bold">THE FRONT</h3>
+                    <p class="text-lg ">The front is comfortable and adjusts well to the shape of your foot.</p>
+                </div>
+                <img class="ml-auto" src="./images/arrow-2 1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="h-[1000px]"></div>
+</body>
+
+</html>
