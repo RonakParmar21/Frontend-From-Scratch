@@ -27,7 +27,8 @@ body {
 }
 
 .image1 {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    border: 7px solid blue;
     border-radius: 50%;
     width: 150px;
     height: 150px;
