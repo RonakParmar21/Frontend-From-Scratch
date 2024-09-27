@@ -1,0 +1,27 @@
+Responsive website using HTML and CSS
+------------------------------------------
+
+--> Understanding Untis
+    - px
+    - %
+    - vw, vh
+    - vmax, vmin
+    - em, rem
+
+--> Layout of website 
+    - absolute vs flex?
+
+--> flexbox 
+    - Display flex
+    - aligning items in x and y axis
+    - flex direction
+    - flex wrap
+
+--> CSS Media Queries
+    - min-height, min-width
+    - max-height, max-width
+
+key points to keep in mind to make website Responsive
+1. css flexbox
+2. css Untis
+3. Responsive
