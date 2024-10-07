@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <div class="container">
+        <div class="left">
+            <div>
+                <label for="name">Name : </label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div>
+                <label for="mobile">Mobile : </label>
+                <input type="tel" name="mobile" id="mobile" placeholder="Enter Your Mobile">
+            </div>
+            <div>
+                <label for="gender">Gender : </label>
+                <span>Male :</span> <input type="radio" name="gender" id="gender">
+                <span>Female :</span> <input type="radio" name="gender" id="gender">
+            </div>
+            <div>
+                <label for="profession">Profession : </label>
+                <Select class="profession" id="profession">
+                    <option value="" selected>--</option>
+                    <option value="software">Software Developer</option>
+                    <option value="medicine">medicine</option>
+                    <option value="education">education</option>
+                </Select>
+            </div>
+
+            <div>
+                <label for="country">Country : </label>
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                </select>
+            </div>
+            <div>
+                <label for="add">Address : </label>
+                <textarea name="add" id="add" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+            </div>
+            <div>
+                <label for="zipcode">Zipcode : </label>
+                <input type="tel" id="zipcode" class="zipcode" pattern="[0-9]{6}" placeholder="Enter Your Zipcode">
+            </div>
+            <!-- <div>
+                <label for="rdate">Registration date</label>
+                <input type="date" id="rdate" class="rdate">
+            </div> -->
+            <div>
+                <input type="submit" value="Register Now" id="submit" class="button">
+                <input type="reset" value="Reset" class="button">
+            </div>
+        </div>
+        <div class="right">
+            <img src="software-development.png" alt="image">
+        </div>
+    </div>
+</body>
+
+</html>
